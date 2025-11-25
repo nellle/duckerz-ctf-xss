@@ -1,4 +1,4 @@
-fetch("/profile.php")
+fetch("/static/css/profile.css")
   .then(r => r.text())
   .then(t => {
     const data = btoa(unescape(encodeURIComponent(t)));
